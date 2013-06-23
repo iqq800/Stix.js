@@ -1,6 +1,8 @@
 Stix.js
 =======
 
+<b>Check online demo: <a href="http://andrewscode.com/code/stix/">here</a></b>
+
 Stix is a jQuery plugin providing a nice and easy to customize inline WYSIWYG editor.
 I'm waiting for pull requests!
 
