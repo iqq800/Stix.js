@@ -8,7 +8,7 @@ Fork the code and try it.
 
 To do:
   * Disable buttons when htmleditor is on
-  * Image upload via <img src="data-uri"/>
+  * Image upload via &lt;img src="data-uri"/&gt;
   * Link/Unlink features
   * Usual text type picker (h1,2,3, p, blockquote, code, etc)
   * Font-family & Size selector
