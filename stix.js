@@ -41,21 +41,21 @@ $.fn.stix = function(){
 		}
 	});
 	//create editor buttons
-	var boldbtn=$("<button data-tag=\"bold\" class=\"stix editorbtn boldbtn\"><i class='icon-bold'></i></button>");
-	var italicbtn=$("<button data-tag=\"italic\" class=\"stix editorbtn italicbtn\"><i class='icon-italic'></i></button>");
-	var underlinebtn=$("<button data-tag=\"underline\" class=\"stix editorbtn underlinebtn\"><i class='icon-underline'></i></button>");
-	var strikebtn=$("<button data-tag=\"strikeThrough\" class=\"stix editorbtn strikebtn\"><i class='icon-strikethrough'></i></button>");
-	var unorderedlistbtn=$("<button data-tag=\"insertunorderedlist\" class=\"stix editorbtn unorderedlistbtn\"><i class='icon-list-ul'></i></button>");
-	var orderedlistbtn=$("<button data-tag=\"insertorderedlist\" class=\"stix editorbtn orderedlistbtn\"><i class='icon-list-ol'></i></button>");
-	var indentbtn=$("<button data-tag=\"indent\" class=\"stix editorbtn indentbtn\"><i class='icon-indent-right'></i></button>");
-	var outdentbtn=$("<button data-tag=\"outdent\" class=\"stix editorbtn outdentbtn\"><i class='icon-indent-left'></i></button>");
-	var justifyleftbtn=$("<button data-tag=\"justifyLeft\" class=\"stix editorbtn justifyleftbtn\"><i class='icon-align-left'></i></button>");
-	var justifyrightbtn=$("<button data-tag=\"justifyRight\" class=\"stix editorbtn justifyrightbtn\"><i class='icon-align-right'></i></button>");
-	var justifycenterbtn=$("<button data-tag=\"justifyCenter\" class=\"stix editorbtn justifycenterbtn\"><i class='icon-align-center'></i></button>");
-	var justifyfullbtn=$("<button data-tag=\"justifyFull\" class=\"stix editorbtn justifyfullbtn\"><i class='icon-align-justify'></i></button>");
-	var hrbtn=$("<button data-tag=\"insertHorizontalRule\" class=\"stix editorbtn hrbtn\"><i class='icon-ellipsis-horizontal'></i></button>");
-	var subscriptbtn=$("<button data-tag=\"subscript\" class=\"stix editorbtn subscriptbtn\"><i class='icon-subscript'></i></button>");
-	var superscriptbtn=$("<button data-tag=\"superscript\" class=\"stix editorbtn superscriptbtn\"><i class='icon-superscript'></i></button>");
+	var boldbtn=$("<button data-tag=\"bold\" class=\"stix editorbtn boldbtn\"><i class='fa fa-bold'></i></button>");
+	var italicbtn=$("<button data-tag=\"italic\" class=\"stix editorbtn italicbtn\"><i class='fa fa-italic'></i></button>");
+	var underlinebtn=$("<button data-tag=\"underline\" class=\"stix editorbtn underlinebtn\"><i class='fa fa-underline'></i></button>");
+	var strikebtn=$("<button data-tag=\"strikeThrough\" class=\"stix editorbtn strikebtn\"><i class='fa fa-strikethrough'></i></button>");
+	var unorderedlistbtn=$("<button data-tag=\"insertunorderedlist\" class=\"stix editorbtn unorderedlistbtn\"><i class='fa fa-list-ul'></i></button>");
+	var orderedlistbtn=$("<button data-tag=\"insertorderedlist\" class=\"stix editorbtn orderedlistbtn\"><i class='fa fa-list-ol'></i></button>");
+	var indentbtn=$("<button data-tag=\"indent\" class=\"stix editorbtn indentbtn\"><i class='fa fa-indent'></i></button>");
+	var outdentbtn=$("<button data-tag=\"outdent\" class=\"stix editorbtn outdentbtn\"><i class='fa fa-outdent'></i></button>");
+	var justifyleftbtn=$("<button data-tag=\"justifyLeft\" class=\"stix editorbtn justifyleftbtn\"><i class='fa fa-align-left'></i></button>");
+	var justifyrightbtn=$("<button data-tag=\"justifyRight\" class=\"stix editorbtn justifyrightbtn\"><i class='fa fa-align-right'></i></button>");
+	var justifycenterbtn=$("<button data-tag=\"justifyCenter\" class=\"stix editorbtn justifycenterbtn\"><i class='fa fa-align-center'></i></button>");
+	var justifyfullbtn=$("<button data-tag=\"justifyFull\" class=\"stix editorbtn justifyfullbtn\"><i class='fa fa-align-justify'></i></button>");
+	var hrbtn=$("<button data-tag=\"insertHorizontalRule\" class=\"stix editorbtn hrbtn\"><i class='fa fa-ellipsis-h'></i></button>");
+	var subscriptbtn=$("<button data-tag=\"subscript\" class=\"stix editorbtn subscriptbtn\"><i class='fa fa-subscript'></i></button>");
+	var superscriptbtn=$("<button data-tag=\"superscript\" class=\"stix editorbtn superscriptbtn\"><i class='fa fa-superscript'></i></button>");
 	//create editor menu
 	var editormenu=$("<div class=\"stix editormenu\"></div>");
 	$(editormenu).addClass("hidden");
