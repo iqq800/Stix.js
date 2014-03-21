@@ -1,18 +1,8 @@
 Stix.js
 =======
 
-<img src="http://oi43.tinypic.com/2vhul2s.jpg"/>
+Now works with Font Awesome 4.0.3
 
-Stix is a jQuery plugin providing a nice and easy to customize inline WYSIWYG editor.
-I'm waiting for pull requests!
+<a href="http://www.jqueryscript.net/demo/jQuery-Plugin-For-Editable-Html-Elements-with-WYSIWYG-Editor-Stix/">Demo</a>
 
-Fork the code and try it.
-
-To do:
-  * Disable buttons when htmleditor is on
-  * Image upload via &lt;img src="data-uri"/&gt;
-  * Link/Unlink features
-  * Usual text type picker (h1,2,3, p, blockquote, code, etc)
-  * Font-family & Size selector
-  * Color pickers for background and foreground
-  * Get awesome ideas!
+<a href="http://www.jqueryscript.net/text/jQuery-Plugin-For-Editable-Html-Elements-with-WYSIWYG-Editor-Stix-js.html">Document</a>
